@@ -1,0 +1,22 @@
+body {
+  margin: 0 auto;
+  width: 100%; }
+
+.section-header {
+  background-image: url("http://imageshack.com/a/img924/8296/Lhm6lk.png");
+  padding-bottom: 900px; }
+  .section-header .menu {
+    text-align: center; }
+    .section-header .menu ul li {
+      display: inline-block;
+      padding-right: 50px;
+      padding-top: 30px; }
+      .section-header .menu ul li a {
+        color: #4d4959;
+        font-family: 'Lato';
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 2.6px;
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
