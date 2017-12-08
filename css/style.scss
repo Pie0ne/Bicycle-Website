@@ -260,3 +260,32 @@ body {
 		}
 	}
 }
+.section-contact {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	img {
+		padding-bottom: 40px;
+	}
+	p {
+		padding-bottom: 35px;
+		color: #848789;
+		font-family: 'Lato';
+		font-size: 24px;
+		font-style: italic;
+		line-height: 34px;
+	}
+	input {
+		padding: 18px 160px 18px 28px;
+	}
+	button {
+		margin-left: 5px;
+		background-color: #64c29e;
+		color: #ffffff;
+		font-family: 'Lato';
+		font-size: 24px;
+		font-weight: 300;
+		line-height: 24px;
+		border: 1px solid #64c29e;
+	}
+}
