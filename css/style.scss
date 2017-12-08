@@ -287,5 +287,26 @@ body {
 		font-weight: 300;
 		line-height: 24px;
 		border: 1px solid #64c29e;
+		padding: 13px 20px 20px 20px;
+	}
+}
+
+.section-footer {
+	text-align: center;
+	background-color: #f7f7f7; 
+	padding-top: 70px;
+	padding-bottom: 70px;
+	.yebo {
+		p {
+			display: inline-block;
+		}		
+	}
+	.socials {
+		img {
+			padding-right: 15px;
+		}
+	}
+	.address {
+		margin-top: -25px;
 	}
 }
