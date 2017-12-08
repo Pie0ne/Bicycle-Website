@@ -19,4 +19,121 @@ body {
         letter-spacing: 2.6px;
         text-decoration: none; }
 
+.section-about .top-oliva {
+  text-align: center; }
+  .section-about .top-oliva img {
+    padding-top: 70px; }
+  .section-about .top-oliva h3 {
+    color: #353738;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    padding-top: 20px; }
+  .section-about .top-oliva p {
+    color: #848789;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-bottom: 65px; }
+.section-about .bottom-oliva {
+  background-image: url("http://imageshack.com/a/img922/1796/x5UYQZ.png");
+  padding-bottom: 180px; }
+.section-about .top-boriosa {
+  text-align: center; }
+  .section-about .top-boriosa img {
+    padding-top: 61px; }
+  .section-about .top-boriosa h3 {
+    color: #353738;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    padding-top: 20px; }
+  .section-about .top-boriosa p {
+    color: #848789;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-bottom: 65px; }
+.section-about .bottom-boriosa {
+  background-image: url("http://imageshack.com/a/img923/7329/faUeWH.png");
+  padding-bottom: 160px; }
+.section-about .vintage {
+  background-image: url("http://imageshack.com/a/img924/1364/J3rNWV.png");
+  text-align: center;
+  padding-bottom: 240px; }
+  .section-about .vintage img {
+    padding-top: 180px; }
+.section-about .since {
+  background-image: url("http://imageshack.com/a/img923/2379/pZWKsH.png");
+  padding-bottom: 230px;
+  text-align: center; }
+  .section-about .since img {
+    padding-top: 280px; }
+.section-about .top-retro {
+  text-align: center; }
+  .section-about .top-retro img {
+    padding-top: 61px; }
+  .section-about .top-retro h3 {
+    color: #353738;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    padding-top: 20px;
+    text-transform: uppercase; }
+  .section-about .top-retro p {
+    color: #848789;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-bottom: 65px; }
+.section-about .bottom-retro {
+  background-image: url("http://imageshack.com/a/img923/340/SWGkMd.png");
+  padding-bottom: 156px; }
+.section-about .right-retro {
+  background-image: url("http://imageshack.com/a/img924/6598/4nIifH.png");
+  padding-bottom: 557px; }
+.section-about .about-bicycle {
+  background-image: url("http://imageshack.com/a/img923/6079/sKzOQ2.jpg");
+  padding-bottom: 261px;
+  text-align: center; }
+  .section-about .about-bicycle img {
+    padding-top: 220px; }
+.section-about .row {
+  margin-left: 0;
+  margin-right: 0; }
+.section-about [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+.section-about .top-about {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 0 auto; }
+  .section-about .top-about img {
+    padding-top: 100px; }
+  .section-about .top-about p {
+    padding-bottom: 130px;
+    padding-top: 25px;
+    color: #848789;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0; }
+  .section-about .top-about h3 {
+    padding-top: 25px;
+    color: #353738;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px; }
+
 /*# sourceMappingURL=style.css.map */

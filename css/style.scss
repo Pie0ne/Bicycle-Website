@@ -25,3 +25,150 @@ body {
 		}
 	}
 }
+
+.section-about {
+	.top-oliva {
+		text-align: center;
+		img {
+			padding-top: 70px;
+		}
+		h3 {
+			color: #353738;
+			font-family: 'Lato';
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 3.6px;
+			padding-top: 20px;
+		}
+		p {
+			color: #848789;
+			font-family: 'Lato';
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 30px;
+			padding-top: 15px;
+			margin-bottom: 65px;
+		}
+	}
+	.bottom-oliva {
+		background-image: url('http://imageshack.com/a/img922/1796/x5UYQZ.png');
+		padding-bottom: 180px;
+	}
+	.top-boriosa {
+		text-align: center;
+		img {
+			padding-top: 61px;
+		}
+		h3 {
+			color: #353738;
+			font-family: 'Lato';
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 3.6px;
+			padding-top: 20px;
+		}
+		p {
+			color: #848789;
+			font-family: 'Lato';
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 30px;
+			padding-top: 15px;
+			margin-bottom: 65px;
+		}
+	}
+	.bottom-boriosa {
+		background-image: url('http://imageshack.com/a/img923/7329/faUeWH.png');
+		padding-bottom: 160px;
+	}
+	.vintage {
+		background-image: url('http://imageshack.com/a/img924/1364/J3rNWV.png');
+		text-align: center;
+		padding-bottom: 240px;
+		img {
+			padding-top: 180px;
+		}
+	}
+	.since {
+		background-image: url('http://imageshack.com/a/img923/2379/pZWKsH.png');
+		padding-bottom: 230px;
+		text-align: center;
+		img {
+			padding-top: 280px;
+		}
+	}
+	.top-retro {
+		text-align: center;
+		img {
+			padding-top: 61px;
+		}
+		h3 {
+			color: #353738;
+			font-family: 'Lato';
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 3.6px;
+			padding-top: 20px;
+			text-transform: uppercase;
+		}
+		p {
+			color: #848789;
+			font-family: 'Lato';
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 30px;
+			padding-top: 15px;
+			margin-bottom: 65px;
+		}
+	}
+	.bottom-retro {
+		background-image: url('http://imageshack.com/a/img923/340/SWGkMd.png');
+		padding-bottom: 156px;
+	}
+	.right-retro {
+		background-image: url('http://imageshack.com/a/img924/6598/4nIifH.png');
+		padding-bottom: 557px;
+	}
+	.about-bicycle {
+		background-image: url('http://imageshack.com/a/img923/6079/sKzOQ2.jpg');
+		padding-bottom: 261px;
+		text-align: center;
+		img {
+			padding-top: 220px;
+		}	
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	[class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.top-about {
+		background-color: #f7f7f7;
+		text-align: center;
+		margin: 0 auto;
+		img {
+			padding-top: 100px;
+		}
+		p {
+			padding-bottom: 130px;
+			padding-top: 25px;
+			color: #848789;
+			font-family: 'Lato';
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 34px;
+			margin: 0;
+		}
+		h3 {
+			padding-top: 25px;
+			color: #353738;
+			font-family: 'Lato';
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 3.6px;
+		}
+	}
+}
