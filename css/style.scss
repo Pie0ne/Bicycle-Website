@@ -172,3 +172,33 @@ body {
 		}
 	}
 }
+.section-comments {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background-color: #f7f7f7;
+	img {
+		padding-bottom: 27px;
+	}
+	h4 {
+		color: #353738;
+		font-family: 'Lato';
+		font-size: 18px;
+		font-weight: 700;
+		font-weight: 700;
+		letter-spacing: 1.8px;
+		span {
+			color: #848789;
+			font-weight: 300;
+			letter-spacing: 1.8px;
+		}
+	}
+	p {
+		color: #848789;
+		font-family: 'Lato';
+		font-size: 24px;
+		font-style: italic;
+		line-height: 34px;
+		padding-top: 17px;
+	}
+}
