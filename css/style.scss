@@ -202,3 +202,61 @@ body {
 		padding-top: 17px;
 	}
 }
+.section-shop {
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	[class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.left-side {
+		background-image: url('http://imageshack.com/a/img923/442/UeS75t.png');
+		padding-bottom: 270px;
+	}
+	.right-side {
+		background-image: url('http://imageshack.com/a/img923/926/uP7Syb.png');
+		padding-bottom: 270px;
+	}
+	.bottom-side {
+		background-image: url('http://imageshack.com/a/img923/5352/Ws0PkR.png');
+		padding-bottom: 210px;
+	}
+	.left-middle-side {
+		background-image: url('http://imageshack.com/a/img923/3189/aElmlI.png');
+		padding-bottom: 520px;
+	}
+	.right-middle-side {
+		background-image: url('http://imageshack.com/a/img923/8186/zVYPpU.png');
+		padding-bottom: 520px;
+	}
+	.up-side {
+		background-image: url('http://imageshack.com/a/img923/5820/0LVIbu.png');
+		padding-bottom: 270px;
+	}
+	.left-right-side {
+		background-image: url('http://imageshack.com/a/img922/3862/FpMFCm.png');
+		padding-bottom: 230px;
+	}
+	.right-right-side {
+		background-image: url('http://imageshack.com/a/img922/868/Ae2G99.png');
+		padding-bottom: 230px;
+	}
+	.discover-button {
+		background-color: #282f35;
+		padding-top: 75px;
+		padding-bottom: 75px;
+		text-align: center;
+		button {
+			color: #ffffff;
+			font-family: 'Lato';
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 2.8px;
+			border: 1px solid rgba(255, 255, 255, 0.5);
+			background-color:  #282f35;
+			padding: 21px 60px;
+		}
+	}
+}

@@ -162,4 +162,49 @@ body {
     line-height: 34px;
     padding-top: 17px; }
 
+.section-shop .row {
+  margin-left: 0;
+  margin-right: 0; }
+.section-shop [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+.section-shop .left-side {
+  background-image: url("http://imageshack.com/a/img923/442/UeS75t.png");
+  padding-bottom: 270px; }
+.section-shop .right-side {
+  background-image: url("http://imageshack.com/a/img923/926/uP7Syb.png");
+  padding-bottom: 270px; }
+.section-shop .bottom-side {
+  background-image: url("http://imageshack.com/a/img923/5352/Ws0PkR.png");
+  padding-bottom: 210px; }
+.section-shop .left-middle-side {
+  background-image: url("http://imageshack.com/a/img923/3189/aElmlI.png");
+  padding-bottom: 520px; }
+.section-shop .right-middle-side {
+  background-image: url("http://imageshack.com/a/img923/8186/zVYPpU.png");
+  padding-bottom: 520px; }
+.section-shop .up-side {
+  background-image: url("http://imageshack.com/a/img923/5820/0LVIbu.png");
+  padding-bottom: 270px; }
+.section-shop .left-right-side {
+  background-image: url("http://imageshack.com/a/img922/3862/FpMFCm.png");
+  padding-bottom: 230px; }
+.section-shop .right-right-side {
+  background-image: url("http://imageshack.com/a/img922/868/Ae2G99.png");
+  padding-bottom: 230px; }
+.section-shop .discover-button {
+  background-color: #282f35;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center; }
+  .section-shop .discover-button button {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #282f35;
+    padding: 21px 60px; }
+
 /*# sourceMappingURL=style.css.map */
