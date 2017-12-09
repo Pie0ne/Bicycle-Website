@@ -7,20 +7,35 @@ body {
   padding-bottom: 518px;
   background-size: 100%;
   background-repeat: no-repeat; }
+  .section-header img {
+    margin: 20px; }
   .section-header .menu {
     text-align: center; }
-    .section-header .menu ul li {
-      display: inline-block;
-      padding-right: 50px;
-      padding-top: 30px; }
-      .section-header .menu ul li a {
-        color: #4d4959;
-        font-family: 'Lato';
-        font-size: 13px;
-        font-weight: 900;
-        letter-spacing: 2.6px;
-        text-decoration: none; }
+    .section-header .menu ul {
+      padding-top: 20px;
+      padding-left: 0; }
+      .section-header .menu ul li {
+        display: inline-block;
+        padding: 15px;
+        cursor: pointer; }
+        .section-header .menu ul li:hover {
+          background-color: #4d4959;
+          transition: .5s; }
+          .section-header .menu ul li:hover a {
+            color: #fff; }
+        .section-header .menu ul li a {
+          color: #4d4959;
+          font-family: 'Lato';
+          font-size: 13px;
+          font-weight: 900;
+          letter-spacing: 2.6px;
+          text-decoration: none;
+          padding: 20px; }
 
+.section-about .about-bicycle:hover {
+  cursor: pointer;
+  transition: .6s;
+  opacity: 0.5; }
 .section-about .top-about {
   padding-right: 20px;
   padding-left: 20px; }
@@ -48,6 +63,10 @@ body {
 .section-about .bottom-oliva {
   background-image: url("http://imageshack.com/a/img922/1796/x5UYQZ.png");
   padding-bottom: 180px; }
+  .section-about .bottom-oliva:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
 .section-about .top-boriosa {
   text-align: center;
   padding-right: 20px;
@@ -72,16 +91,28 @@ body {
 .section-about .bottom-boriosa {
   background-image: url("http://imageshack.com/a/img923/7329/faUeWH.png");
   padding-bottom: 160px; }
+  .section-about .bottom-boriosa:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
 .section-about .vintage {
   background-image: url("http://imageshack.com/a/img924/1364/J3rNWV.png");
   text-align: center;
   padding-bottom: 240px; }
+  .section-about .vintage:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
   .section-about .vintage img {
     padding-top: 180px; }
 .section-about .since {
   background-image: url("http://imageshack.com/a/img923/2379/pZWKsH.png");
   padding-bottom: 230px;
   text-align: center; }
+  .section-about .since:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
   .section-about .since img {
     padding-top: 280px; }
 .section-about .top-retro {
@@ -109,9 +140,17 @@ body {
 .section-about .bottom-retro {
   background-image: url("http://imageshack.com/a/img923/340/SWGkMd.png");
   padding-bottom: 156px; }
+  .section-about .bottom-retro:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
 .section-about .right-retro {
   background-image: url("http://imageshack.com/a/img924/6598/4nIifH.png");
   padding-bottom: 557px; }
+  .section-about .right-retro:hover {
+    cursor: pointer;
+    transition: .6s;
+    opacity: 0.5; }
 .section-about .about-bicycle {
   background-image: url("http://imageshack.com/a/img923/6079/sKzOQ2.jpg");
   padding-bottom: 261px;
@@ -175,6 +214,8 @@ body {
     line-height: 34px;
     padding-top: 17px; }
 
+.section-shop:hover {
+  cursor: pointer; }
 .section-shop .row {
   margin-left: 0;
   margin-right: 0; }
@@ -196,6 +237,9 @@ body {
 .section-shop .right-middle-side {
   background-image: url("http://imageshack.com/a/img923/8186/zVYPpU.png");
   padding-bottom: 520px; }
+  .section-shop .right-middle-side:hover {
+    cursor: pointer;
+    transition: .6s; }
 .section-shop .up-side {
   background-image: url("http://imageshack.com/a/img923/5820/0LVIbu.png");
   padding-bottom: 270px; }
@@ -219,13 +263,18 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #282f35;
     padding: 21px 60px; }
+    .section-shop .discover-button button:hover {
+      color: #282f35;
+      background-color: #fff;
+      transition: .5s; }
 
 .section-contact {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px; }
   .section-contact img {
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    cursor: pointer; }
   .section-contact p {
     padding-bottom: 35px;
     color: #848789;
@@ -245,6 +294,11 @@ body {
     line-height: 24px;
     border: 1px solid #64c29e;
     padding: 13px 20px 20px 20px; }
+    .section-contact button:hover {
+      color: #64c29e;
+      background-color: #fff;
+      transition: .5s;
+      font-weight: 500; }
 
 .section-footer {
   text-align: center;
@@ -256,7 +310,8 @@ body {
     padding-top: 30px; }
   .section-footer .socials img {
     padding-right: 15px;
-    padding-top: 30px; }
+    padding-top: 30px;
+    cursor: pointer; }
   .section-footer .address {
     margin-top: -25px;
     padding-top: 30px; }
@@ -333,7 +388,7 @@ body {
     margin-left: 25%;
     margin-top: 60px; }
     .section-about .since img {
-      width: 60%; }
+      width: 70%; }
   .section-about .bottom-retro {
     width: 50%;
     margin-left: 25%;
@@ -371,6 +426,9 @@ body {
     padding: 20px 15px 20px 15px; }
 
   .section-contact input {
-    padding: 18px 0px 18px 28px; } }
+    padding: 18px 0px 18px 28px; }
+
+  .section-footer .yebo {
+    padding-top: 25px; } }
 
 /*# sourceMappingURL=style.css.map */

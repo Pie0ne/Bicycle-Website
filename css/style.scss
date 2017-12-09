@@ -1,3 +1,9 @@
+@mixin photo-hover {
+	cursor: pointer;
+	transition: .6s;
+	opacity: 0.5;	
+}
+
 body {
 	margin: 0 auto;
 	width: 100%;
@@ -8,15 +14,25 @@ body {
 	padding-bottom: 518px;
 	background-size: 100%;
   	background-repeat: no-repeat;
-
-
+  	img {
+		margin: 20px;
+	}
 	.menu {
 		text-align: center;
 		ul {
+			padding-top: 20px;
+			padding-left: 0;
 			li {
 				display: inline-block;
-				padding-right: 50px;
-				padding-top: 30px;
+				padding: 15px;
+				cursor: pointer;
+				&:hover {
+					background-color: #4d4959;
+					transition: .5s;
+					a {
+						color: #fff;
+					}
+				}
 				a {
 					color: #4d4959;
 					font-family: 'Lato';
@@ -24,6 +40,7 @@ body {
 					font-weight: 900;
 					letter-spacing: 2.6px;
 					text-decoration: none;
+					padding: 20px;							
 				}
 			}
 		}
@@ -31,6 +48,13 @@ body {
 }
 
 .section-about {
+	.about-bicycle {
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
+	}
 	.top-about {
 		padding-right: 20px;
 		padding-left: 20px;
@@ -38,7 +62,7 @@ body {
 	.top-oliva {
 		text-align: center;
 		padding-right: 20px;
-		padding-left: 20px; 
+		padding-left: 20px; 	
 		img {
 			padding-top: 70px;
 		}
@@ -63,6 +87,11 @@ body {
 	.bottom-oliva {
 		background-image: url('http://imageshack.com/a/img922/1796/x5UYQZ.png');
 		padding-bottom: 180px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 	}
 	.top-boriosa {
 		text-align: center;
@@ -92,11 +121,21 @@ body {
 	.bottom-boriosa {
 		background-image: url('http://imageshack.com/a/img923/7329/faUeWH.png');
 		padding-bottom: 160px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 	}
 	.vintage {
 		background-image: url('http://imageshack.com/a/img924/1364/J3rNWV.png');
 		text-align: center;
 		padding-bottom: 240px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 		img {
 			padding-top: 180px;
 		}
@@ -105,6 +144,11 @@ body {
 		background-image: url('http://imageshack.com/a/img923/2379/pZWKsH.png');
 		padding-bottom: 230px;
 		text-align: center;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 		img {
 			padding-top: 280px;
 		}
@@ -138,10 +182,20 @@ body {
 	.bottom-retro {
 		background-image: url('http://imageshack.com/a/img923/340/SWGkMd.png');
 		padding-bottom: 156px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 	}
 	.right-retro {
 		background-image: url('http://imageshack.com/a/img924/6598/4nIifH.png');
 		padding-bottom: 557px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+			opacity: 0.5;
+		}
 	}
 	.about-bicycle {
 		background-image: url('http://imageshack.com/a/img923/6079/sKzOQ2.jpg');
@@ -219,6 +273,9 @@ body {
 	}
 }
 .section-shop {
+		&:hover {
+			cursor: pointer;
+		}
 	.row {
 		margin-left: 0;
 		margin-right: 0;
@@ -229,7 +286,7 @@ body {
 	}
 	.left-side {
 		background-image: url('http://imageshack.com/a/img923/442/UeS75t.png');
-		padding-bottom: 270px;
+		padding-bottom: 270px;	
 	}
 	.right-side {
 		background-image: url('http://imageshack.com/a/img923/926/uP7Syb.png');
@@ -242,10 +299,15 @@ body {
 	.left-middle-side {
 		background-image: url('http://imageshack.com/a/img923/3189/aElmlI.png');
 		padding-bottom: 520px;
+		
 	}
 	.right-middle-side {
 		background-image: url('http://imageshack.com/a/img923/8186/zVYPpU.png');
 		padding-bottom: 520px;
+		&:hover {
+			cursor: pointer;
+			transition: .6s;
+		}
 	}
 	.up-side {
 		background-image: url('http://imageshack.com/a/img923/5820/0LVIbu.png');
@@ -273,6 +335,11 @@ body {
 			border: 1px solid rgba(255, 255, 255, 0.5);
 			background-color:  #282f35;
 			padding: 21px 60px;
+			&:hover {
+				color:  #282f35;
+				background-color: #fff;
+				transition: .5s;
+			}
 		}
 	}
 }
@@ -282,6 +349,7 @@ body {
 	padding-bottom: 100px;
 	img {
 		padding-bottom: 40px;
+		cursor: pointer;
 	}
 	p {
 		padding-bottom: 35px;
@@ -304,6 +372,12 @@ body {
 		line-height: 24px;
 		border: 1px solid #64c29e;
 		padding: 13px 20px 20px 20px;
+		&:hover {
+			color: #64c29e;
+			background-color: #fff;
+			transition: .5s;
+			font-weight: 500;
+		}
 	}
 }
 
@@ -322,6 +396,7 @@ body {
 		img {
 			padding-right: 15px;
 			padding-top: 30px;
+			cursor: pointer;
 		}
 	}
 	.address {
@@ -425,7 +500,7 @@ body {
 		}
 		.since {
 			img {
-				width: 60%
+				width: 70%
 			}
 			width: 50%;
 			margin-left: 25%;
@@ -456,8 +531,7 @@ body {
 			margin-left: 25%;
 			margin-bottom: 80px;
 		}
-		.up-side {
-			
+		.up-side {			
 			margin-bottom: 80px;
 		}
 		.left-middle-side {
@@ -485,6 +559,11 @@ body {
 	.section-contact {
 		input {
 		padding: 18px 0px 18px 28px;
+		}
+	}
+	.section-footer {
+		.yebo {
+			padding-top: 25px;
 		}
 	}
 }
