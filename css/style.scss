@@ -111,6 +111,8 @@ body {
 	}
 	.top-retro {
 		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
 		img {
 			padding-top: 61px;
 		}
@@ -189,6 +191,8 @@ body {
 	padding-top: 100px;
 	padding-bottom: 150px;
 	background-color: #f7f7f7;
+	padding-left: 15px;
+	padding-right: 15px;
 	img {
 		padding-bottom: 27px;
 	}
@@ -311,15 +315,18 @@ body {
 	.yebo {
 		p {
 			display: inline-block;
+			padding-top: 30px;
 		}		
 	}
 	.socials {
 		img {
 			padding-right: 15px;
+			padding-top: 30px;
 		}
 	}
 	.address {
 		margin-top: -25px;
+		padding-top: 30px;
 	}
 }
 
@@ -342,6 +349,16 @@ body {
 			margin-left: 25%;
 			margin-top: 60px;
 		}	
+		.bottom-retro {
+			width: 50%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.right-retro {
+			width: 50%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}		
 	}
 
 } 
@@ -364,7 +381,17 @@ body {
 			width: 50%;
 			margin-left: 25%;
 			margin-bottom: 80px;
-		}		
+		}
+		.bottom-retro {
+			width: 50%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}	
+		.right-retro {
+			width: 50%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}			
 	}
 	
 } 
@@ -403,6 +430,61 @@ body {
 			width: 50%;
 			margin-left: 25%;
 			margin-top: 60px;
-		}	
+		}
+		.bottom-retro {
+			width: 50%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.right-retro {
+			display: none;
+		}					
+	}
+	.section-shop {
+		.left-side {
+			width: 45%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.right-side {
+			width: 45%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.bottom-side {
+			width: 45%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.up-side {
+			
+			margin-bottom: 80px;
+		}
+		.left-middle-side {
+			display: none;
+		}
+		.right-middle-side {
+			display: none;
+		}
+		.left-right-side {
+			width: 45%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.right-right-side {
+			width: 45%;
+			margin-left: 25%;
+			margin-bottom: 80px;
+		}
+		.discover-button {
+			button {
+			padding: 20px 15px 20px 15px;	
+			}
+		}
+	}
+	.section-contact {
+		input {
+		padding: 18px 0px 18px 28px;
+		}
 	}
 }

@@ -85,7 +85,9 @@ body {
   .section-about .since img {
     padding-top: 280px; }
 .section-about .top-retro {
-  text-align: center; }
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px; }
   .section-about .top-retro img {
     padding-top: 61px; }
   .section-about .top-retro h3 {
@@ -149,7 +151,9 @@ body {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 150px;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  padding-left: 15px;
+  padding-right: 15px; }
   .section-comments img {
     padding-bottom: 27px; }
   .section-comments h4 {
@@ -248,11 +252,14 @@ body {
   padding-top: 70px;
   padding-bottom: 70px; }
   .section-footer .yebo p {
-    display: inline-block; }
+    display: inline-block;
+    padding-top: 30px; }
   .section-footer .socials img {
-    padding-right: 15px; }
+    padding-right: 15px;
+    padding-top: 30px; }
   .section-footer .address {
-    margin-top: -25px; }
+    margin-top: -25px;
+    padding-top: 30px; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .section-header {
@@ -268,7 +275,15 @@ body {
   .section-about .since {
     width: 50%;
     margin-left: 25%;
-    margin-top: 60px; } }
+    margin-top: 60px; }
+  .section-about .bottom-retro {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-about .right-retro {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 80px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-header {
     padding-bottom: 300px; }
@@ -281,6 +296,14 @@ body {
     width: 55%;
     margin-left: 25%; }
   .section-about .bottom-boriosa {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-about .bottom-retro {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-about .right-retro {
     width: 50%;
     margin-left: 25%;
     margin-bottom: 80px; } }
@@ -310,6 +333,44 @@ body {
     margin-left: 25%;
     margin-top: 60px; }
     .section-about .since img {
-      width: 60%; } }
+      width: 60%; }
+  .section-about .bottom-retro {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-about .right-retro {
+    display: none; }
+
+  .section-shop .left-side {
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-shop .right-side {
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-shop .bottom-side {
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-shop .up-side {
+    margin-bottom: 80px; }
+  .section-shop .left-middle-side {
+    display: none; }
+  .section-shop .right-middle-side {
+    display: none; }
+  .section-shop .left-right-side {
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-shop .right-right-side {
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 80px; }
+  .section-shop .discover-button button {
+    padding: 20px 15px 20px 15px; }
+
+  .section-contact input {
+    padding: 18px 0px 18px 28px; } }
 
 /*# sourceMappingURL=style.css.map */
