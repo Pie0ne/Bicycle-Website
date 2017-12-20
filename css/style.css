@@ -195,6 +195,8 @@ body {
   padding-right: 15px; }
   .section-comments img {
     padding-bottom: 27px; }
+    .section-comments img:hover {
+      cursor: pointer; }
   .section-comments h4 {
     color: #353738;
     font-family: 'Lato';
@@ -341,7 +343,7 @@ body {
     margin-bottom: 80px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-header {
-    padding-bottom: 300px; }
+    padding-bottom: 260px; }
 
   .section-about .since {
     width: 50%;

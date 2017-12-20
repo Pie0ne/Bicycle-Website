@@ -249,6 +249,9 @@ body {
 	padding-right: 15px;
 	img {
 		padding-bottom: 27px;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 	h4 {
 		color: #353738;
@@ -435,12 +438,11 @@ body {
 			margin-bottom: 80px;
 		}		
 	}
-
 } 
 
 @media(min-width: 768px) and (max-width: 991px) {
 	.section-header {
-		padding-bottom: 300px;
+		padding-bottom: 260px;
 	}
 	.section-about {
 		.since {
@@ -467,8 +469,7 @@ body {
 			margin-left: 25%;
 			margin-bottom: 80px;
 		}			
-	}
-	
+	}	
 } 
 
 @media(max-width: 767px) {
@@ -500,7 +501,7 @@ body {
 		}
 		.since {
 			img {
-				width: 70%
+				width: 70%;
 			}
 			width: 50%;
 			margin-left: 25%;
