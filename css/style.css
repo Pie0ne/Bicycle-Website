@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+}
 
 .section-header {
   background-image: url("http://imageshack.com/a/img924/8296/Lhm6lk.png");
@@ -62,6 +63,7 @@ body {
     margin-bottom: 65px; }
 .section-about .bottom-oliva {
   background-image: url("http://imageshack.com/a/img922/1796/x5UYQZ.png");
+  background-size: cover;
   padding-bottom: 180px; }
   .section-about .bottom-oliva:hover {
     cursor: pointer;
@@ -90,6 +92,7 @@ body {
     margin-bottom: 65px; }
 .section-about .bottom-boriosa {
   background-image: url("http://imageshack.com/a/img923/7329/faUeWH.png");
+  background-size: cover;
   padding-bottom: 160px; }
   .section-about .bottom-boriosa:hover {
     cursor: pointer;
@@ -97,6 +100,7 @@ body {
     opacity: 0.5; }
 .section-about .vintage {
   background-image: url("http://imageshack.com/a/img924/1364/J3rNWV.png");
+  background-size: cover;
   text-align: center;
   padding-bottom: 240px; }
   .section-about .vintage:hover {
@@ -107,6 +111,7 @@ body {
     padding-top: 180px; }
 .section-about .since {
   background-image: url("http://imageshack.com/a/img923/2379/pZWKsH.png");
+  background-size: cover;
   padding-bottom: 230px;
   text-align: center; }
   .section-about .since:hover {
@@ -139,6 +144,7 @@ body {
     margin-bottom: 65px; }
 .section-about .bottom-retro {
   background-image: url("http://imageshack.com/a/img923/340/SWGkMd.png");
+  background-size: cover;
   padding-bottom: 156px; }
   .section-about .bottom-retro:hover {
     cursor: pointer;
@@ -146,6 +152,7 @@ body {
     opacity: 0.5; }
 .section-about .right-retro {
   background-image: url("http://imageshack.com/a/img924/6598/4nIifH.png");
+  background-size: cover;
   padding-bottom: 557px; }
   .section-about .right-retro:hover {
     cursor: pointer;
@@ -153,6 +160,7 @@ body {
     opacity: 0.5; }
 .section-about .about-bicycle {
   background-image: url("http://imageshack.com/a/img923/6079/sKzOQ2.jpg");
+  background-size: cover;
   padding-bottom: 261px;
   text-align: center; }
   .section-about .about-bicycle img {
